@@ -1,0 +1,11 @@
+{
+"name" :"easyT411",
+"version" :"0.1",
+"description" :"With easyT411, you can download .torrent files without having to open the torrent's page.",
+"content_scripts" : [
+    {
+	"matches": ["http://www.t411.me/*"],
+	"js": ["script.js"]
+    }
+    ]
+}
